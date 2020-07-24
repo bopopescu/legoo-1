@@ -37,7 +37,7 @@ hive_path='/usr/lib/hive/lib/py/'
 if hive_path not in sys.path:
       sys.path.insert(0, hive_path)
 
-trulia_mysql_host = ['bidbs', 'bidbm', 'bedb1', 'maildb-slave', 'db30', 'rodb-dash', 'db9', 'crad103']
+trulia_mysql_host = ['bidbs', 'bidbm', 'bedb1', 'maildb-subordinate', 'db30', 'rodb-dash', 'db9', 'crad103']
 
 def count_lines(**kwargs):
   """return line count for input file
